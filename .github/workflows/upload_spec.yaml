@@ -6,7 +6,7 @@ on:
 #
   #push:
   #  paths:
-  #    - opneapi.yaml
+  #    - openapi.yaml
   workflow_run:
     # Run after deploy_oas.yaml
     workflows: ["Convert OpenAPI Spec to Kong and Deploy"] 
@@ -36,7 +36,7 @@ jobs:
       - name: Upload api-spec.yaml
         shell: bash
         run: |
-          file="opneapi.yaml"
+          file="openapi.yaml"
           msg="Document '$file' has been successfully uploaded."
           return_code=0
           set -x
