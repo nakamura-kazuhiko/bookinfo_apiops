@@ -1,6 +1,6 @@
 Originally from https://github.com/istio/istio/tree/master/samples/bookinfo
 
-# Bookinfo Sample 2
+# Bookinfo Sample 3
 
 See <https://istio.io/docs/examples/bookinfo/>.
 
